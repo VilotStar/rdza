@@ -69,6 +69,18 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "rób" => "do",
         "prawda" => "true",
         "enumeracja" => "enum",
+        "ciąg" => "str",
+        "zawierać_ciąg" => "include_str",
+        "podział" => "split",
+        "podział_na" => "split_at",
+        "długość" => "len",
+        "znakic" => "chars",
+        "znakc" => "char",
+        "ucałkowita" => "usize",
+        "filtr" => "filter",
+        "zawiera" => "contains",
+        "nty" => "nth",
+        "jest_niższy" => "is_ascii_lowercase",
 
         _ => &ident_str,
     };
