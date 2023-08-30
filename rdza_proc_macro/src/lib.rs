@@ -81,6 +81,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "zawiera" => "contains",
         "nty" => "nth",
         "jest_niższy" => "is_ascii_lowercase",
+        "kontynuować" => "continue",
 
         _ => &ident_str,
     };
